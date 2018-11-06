@@ -25,7 +25,7 @@ function [image] = LaplaceSharpen(image, laplace_kernel)
         end
     end
     
-    image_min = min(image(:));
-    image = image - image_min;
+%     image_min = min(image(:));
+%     image = image - image_min;
 end
 
